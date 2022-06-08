@@ -11,3 +11,38 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#deleteAll {
+  grid-template-columns: 1/4;
+  grid-row: 1;
+  width: 170px;
+
+}
+
+@media (min-width: 320px) {
+  #deleteAll {
+    width: 114px;
+
+  }
+}
+
+@media (min-width: 768px) {
+  #deleteAll {
+    width: 146px;
+
+  }
+}
+
+@media (min-width: 1024px) {
+  #deleteAll {
+    width: 210px;
+
+  }
+}
+
+@media (min-width: 2560px) {
+  #deleteAll {
+    width: 410px;
+
+  }
+}
